@@ -1,0 +1,13 @@
+# Brands to download logos for -- one per line.
+# Copy this file to brands.txt (git-ignored) and edit it, or pass brands on the
+# command line instead.
+#
+# Accepted formats:
+#   domain.com                  ->  folder named after the domain ("apple")
+#   Display Name = domain.com   ->  custom folder name, exact domain
+#   Brand Name                  ->  resolved via Brandfetch Search (needs BRANDFETCH_CLIENT_ID)
+
+google.com
+GitHub = github.com
+Nike = nike.com
+Spotify = spotify.com

@@ -1,0 +1,22 @@
+# Secrets / API keys -- never commit these
+.env
+.env.*
+!.env.example
+*.key
+secrets.*
+
+# Personal brand list (keep your own list out of the public repo)
+brands.txt
+
+# Downloaded logo assets
+logos/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
