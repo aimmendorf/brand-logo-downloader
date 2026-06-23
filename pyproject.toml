@@ -1,0 +1,6 @@
+# Test/tooling config only. Runtime deps live in requirements.txt; this is a
+# single-module script, not an installable package, so there is no [project] or
+# build-system table.
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
